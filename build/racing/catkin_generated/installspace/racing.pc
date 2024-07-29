@@ -1,0 +1,8 @@
+prefix=/home/hong/catkin_ws/install
+
+Name: racing
+Description: Description of racing
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lracing
+Requires: roscpp std_msgs sensor_msgs geometry_msgs

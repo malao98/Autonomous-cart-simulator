@@ -1,0 +1,2 @@
+dependencies/flatland/flatland:dependencies/flatland/flatland_msgs:dependencies/flatland/flatland_plugins:dependencies/flatland/flatland_server:dependencies/flatland/flatland_viz:racing
+-DCATKIN_DEVEL_PREFIX=/home/hong/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hong/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hong/catkin_ws/src/racing/include/VehicleController.h
+
+/home/hong/catkin_ws/src/racing/src/VehicleController.cpp
+VehicleController.h
+/home/hong/catkin_ws/src/racing/src/VehicleController.h
+cstdlib
+-
+cmath
+-
+

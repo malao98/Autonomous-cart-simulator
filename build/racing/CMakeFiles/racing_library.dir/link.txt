@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libracing_library.so -o /home/hong/catkin_ws/devel/lib/libracing_library.so CMakeFiles/racing_library.dir/src/VehicleController.cpp.o 
