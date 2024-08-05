@@ -40,7 +40,6 @@ void VehicleController::computeTargetSteeringAngle() {
   const float FACTOR = 0.5f;
 
   // Calculate relative lateral position on the road
-  // You can use up to 5 lidar points for localization
   const float& right_distance = this->sensor_distances_[0];
   const float& front_distance = this->sensor_distances_[2];
   const float& left_distance = this->sensor_distances_[4];
@@ -49,7 +48,6 @@ void VehicleController::computeTargetSteeringAngle() {
   // The closer the cart is to the right border, the more it should steer to the left
   // (and vice versa).
   // (Steering to the left = positive steering angle)
-  // To achieve this in a smooth way, a parameter-tuned tanh function can be used.
   this->target_steering_angle_ = (FACTOR/front_distance) * rightShift * std::tanh( std::abs(rightShift));
   
 }
